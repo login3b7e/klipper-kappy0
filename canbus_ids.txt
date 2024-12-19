@@ -1,6 +1,0 @@
-python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-katapult_stm32f446xx_39003A001951303439363932-if00
-
-Found canbus_uuid=6bb6f084d709, Application: Klipper => fysetc spider
-Found canbus_uuid=fc3327addda1, Application: Klipper => ebb36
-
-python3 ~/katapult/scripts/flashtool.py -i can0 -u fc3327addda1 -f ~/klipper/out/klipper.bin
